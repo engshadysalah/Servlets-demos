@@ -1,0 +1,82 @@
+
+Frist ====>>> programing
+
+
+program : web_app_num6  (is web_app_num4 but it is updated )
+
+
+
+========================================================
+
+
+Second ===>> information
+
+
+Requst Dispatcher : 
+
+send requst to srver (to excute servelt 1)
+
+then (servelt 1 excute to selvelt 2)
+
+
+that is done by : make => requst dispatcher 
+(ÊæÒíÚ ÇáÑíßæÓÊ íÚäí ÌÇíáí ÑíßæÓÊ İÈÈÚÊå áÍÇÌå ÊÇäíå ÚáÔÇä ÊÙåÑ ÈÏá ãäí)
+
+
+
+=========================================================================================================================
+
+=>>>>  Atributes  scop :
+
+=>  Atributes can put in :
+
+1: //getServletContext().setAttribute("objeeeeeeeeeect", p);
+
+then all can see it (convelect)
+
+
+2://Session 
+         HttpSession session= request.getSession();
+          session.setAttribute("objeeeect", p);
+
+then pages that open it only can see it
+
+
+===>> Requst dispatcher
+
+3: in request 
+request.setAttribute("object_attribute", p);
+
+then : the page that requst send to it ,it only can see it
+but sholud make dispatcher
+
+==========================================================================================================================
+
+Very importaaaaaaaaaant in interview :
+
+
+What is the diffrence between   Redirect Vs RequstDispatcher ??? (answer in end of this vedio in time:12 minute)
+
+
+
+Redirect : 
+
+ 1: (íÊã ÈãÚáæãíå <ãä ÎáÇá> ÇáÈÑæÒÑ) 
+ 2: send requst to new servelt  by prowser   
+ 
+
+
+
+
+
+
+
+RequstDispatcher :
+
+ 1: (íÊã ÈãÚáæãíå ÇáÈÑæÒÑ áÇ )  
+ 2: (íÊã ÈÚáæãíå <ãä ÎáÇá> ÇáÓÑİÑ)
+ 3: send requst to new servelt  by sevelt i write it in code
+
+============================================================================================================================
+
+

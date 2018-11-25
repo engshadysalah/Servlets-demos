@@ -1,0 +1,72 @@
+
+Frist =>>>>> programing
+ 
+program : web_app_num1
+
+creat :Call_servelt.html
+
+
+
+=============================================================
+
+Second =>>>>>> Information
+
+Servelt : => java Class can work on web & handel with prowser 
+          => Run java code and sent result to prowser 
+          => write html in code java 
+
+
+
+1: Shape : {Class => MyServelt}
+
+2: How i can run it :
+
+3: write in it eehhh ?
+
+ex:
+
+              ===============================
+
+* Consist of 3 names :
+                      1: (servelt Class)Class_Name {ex: MyServelt}
+                      2: Servelt name{contact 1&3 is maping }
+                      3: URL pattern {put in prowser}
+
+            ========================================
+=> Web.xml (deployment discreptor dd) : file that stored data of servelt in it 1,2,3 {3 names }
+   
+       ======================================================
+
+* MyServelt extends HttpServlet  
+
+=> HttpServlet : Contain Methodes
+
+1:doget : (defult of requst is get)
+(the coge in it will excute if requst from prowser to servelt is get)
+
+2:dopost :
+(the coge in it will excute if requst from prowser to servelt is post)
+
+
+Then :> Do Override to 1,2 in MyServelt Class
+ 
+          =============================================
+
+
+2: how i can excute it ? (ÇÔÛáå ÇÒÇÇÇí)
+
+=> By sending Requst
+
+i can send requst in 2 ways:
+
+1: send direct requst 
+(run the servelt class & programmer do it for testing the servelt :: Then Netbeanes open the prowser & make the prowser  sends Requst )
+
+2: send requst throw page
+ex:callservelt.html
+
+(i can detrmined type of regust get or post)
+
+==========================================================
+
+3: ???? ???

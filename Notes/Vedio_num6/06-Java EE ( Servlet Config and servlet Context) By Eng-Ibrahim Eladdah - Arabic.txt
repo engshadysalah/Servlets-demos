@@ -1,0 +1,62 @@
+
+
+frist =>>>>>>>>  programing
+
+
+
+program : web_app_num3
+
+
+
+
+=============================================================
+
+
+Second =>>>>>>>>> information
+
+
+Servelt configration :
+
+Intialiesation pramiters : is variables may be change such as email  give them to servelt
+
+
+         ===========================================
+
+container create object to each servelt which called configuration 
+
+and container put in this object(configuration )the pramiters of the servelt
+
+
+How get this object ???
+
+getServletConfig().getInitParameter("email");
+
+1:getServletConfig() 
+=>its method enhritance from httpservelt that get the 
+  configuration object that maded by container 
+
+2:getInitParameter("email");
+=> to get Intialiesation pramiters 
+
+1: web.xml
+2: servelt
+3: add intial paramiter
+ =======================================================================
+
+  Servelt Context : container creat object and put in it intial 
+                pramiters and them are available for all servelt
+
+
+=> Calling : Sharing data between web compnant (Servelt & jsp)
+
+
+1: web.xml
+2: general
+3: context pramiter
+
+
+how get this ???
+
+ String ph= getServletContext().getInitParameter("phone"); //context paramitar
+
+================================================================

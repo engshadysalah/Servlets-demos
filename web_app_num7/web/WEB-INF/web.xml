@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <filter>
+        <filter-name>fliter_servelt_demo</filter-name>
+        <filter-class>filter.fliter_servelt_demo1</filter-class>
+    </filter>
+    <filter>
+        <filter-name>filter_servelt_demo2</filter-name>
+        <filter-class>filter.filter_servelt_demo2</filter-class>
+    </filter>
+    <filter>
+        <filter-name>App_filter</filter-name>
+        <filter-class>filter.App_filter</filter-class>
+    </filter>
+    
+    
+    <filter-mapping>
+        <filter-name>fliter_servelt_demo</filter-name>
+        <servlet-name>servelt_filter_demo</servlet-name>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>filter_servelt_demo2</filter-name>
+        <servlet-name>servelt_filter_demo</servlet-name>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>App_filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+    
+    <servlet>
+        <servlet-name>servelt_filter_demo</servlet-name>
+        <servlet-class>servelt.servelt_filter_demo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servelt_filter_demo</servlet-name>
+        <url-pattern>/servelt_filter_demo</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

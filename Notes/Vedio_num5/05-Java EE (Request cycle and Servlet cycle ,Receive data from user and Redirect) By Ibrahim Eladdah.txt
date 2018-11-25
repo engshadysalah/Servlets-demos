@@ -1,0 +1,108 @@
+
+Frist =>>>>>>  programing
+
+program: wep_app_num1  & wep_app_num2
+
+
+
+==========================================================
+
+Second =>>>>>>>> Information
+
+
+if Container not found = importance of container
+
+
+1: do 2 objects (object for requst & object to response)
+
+2: Read Web.xml  (to knows url pattern to determine servelt)
+
+3: send requst & response to servelt wich recived them in 
+   method called Service (in HttpServelt) to check requst
+
+if requst type is get then send requst & response  to doget
+
+else
+
+if the type of requst is post then send requst & response  to dopost
+
+
+5: then you put result of doget or dopost in Reponse and
+   and after the method ( doget or dopost )finishaed 
+
+
+6: requst & response back to container 
+   the container kill the requst
+
+7: then send the response 
+
+
+then COntainer 1: do requst & response
+               2: read web.xml 
+               3: send thim to servelt
+               4: and recives thim again
+               5: send reponse & kill requst
+
+================================================================
+
+Servelt life cycle : 
+(to know why count++ and start fron 1 again when close netbeanes and open it again)
+
+
+1: Servelt is class 
+
+2: container must creat object from it to excute it by calling 
+   the defult constactor of sevelt class & do override to method 
+   called init (in httpServelt) & it excute only one mara
+   & when close container calling method called destory to kill 
+    the object & init method
+
+3: during run servelt class
+
+       1: when countainer  work it read web.xml to knows all 
+          servelt in project
+
+       2: container creat objeces for all this serveltes and 
+          still life during the program is working
+
+
+================================================================
+
+Recive data from user 
+
+So i will use requst
+
+
+===============================================================
+
+processRequest Method:
+
+to excute code if typ of requst is get or post
+
+================================================================
+
+type of requst :
+
+get: 1:can bookmark
+     2:limited paramiter
+     3:idenpotent
+
+
+post: 1:cnnot booomark
+      2: not limited
+      3: (non idenpotent) using withe requst that dose affect on 
+         server {stor in DB , file  or delet thing }
+
+=>http : is that detrmined if request is idenpotent or not
+
+================================================================
+
+Requst dose affect on server or 
+
+  åíÎÒä ÍÇÌå İí ÏÇÊÇ ÈíÒ Çæ åíãÓÍ ÍÇÌå\
+
+Or
+
+Requst  dosenot affect on server 
+
+================================================================

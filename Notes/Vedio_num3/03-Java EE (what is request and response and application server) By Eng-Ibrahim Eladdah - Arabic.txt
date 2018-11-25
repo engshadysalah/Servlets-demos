@@ -1,0 +1,157 @@
+
+Frist : =>>>>>>> programing
+
+program: web_app_num1  { form action method="post , get"}
+
+
+===============================================================            <<<<<<<<< Web programming 2 >>>>>>>>>
+
+web programming part 2
+
+Second : =>>>>>>>> Information    {life cycle}
+
+
+Server : Contain Html Pages (x.html)
+
+Prowser : Show this Html Pages to the user
+
+
+Operation : To Show How Browesr Show this Html Pages to the user
+
+
+1: Requst (Browser Create & Send Requst to Server) 
+
+2: Server Response This Data
+
+3: Prowser Show this Html Pages to the user 
+  { prowser Jusssst Open HTml Files }
+
+
+            ====================================
+
+1: Requst : Made by the  Prowser
+
+ * Must Contain :>  
+               1: URL {ip of server + name of needed Web page}
+                  (uniform resource locatore)
+
+               2: Paramiters If There  (ex: Register)
+                  
+               3: Type Of Regust  {Metohd}  
+  
+                  1:Get {Metohd="get"}
+                        #(Defult) {Paramiters  appier  }
+                        #Not Secure
+                        #Larg Num Of Paramiters (don't Use)
+                                  
+                  2:Post {Metohd="post"}
+                        #{Paramiters  not appir}
+                        #More Secure (if pramiter is password)
+                        #larg num of paramiter (is used)
+
+
+
+* Consist Of :>
+
+         1: Header : iNcloude....!!!
+           #agent : type of prowser (Mozila , version ,language)
+           #accespt : things that prowser accespt(Html Files , mp3)
+                      
+        2: Body  :
+                    
+            1: if type of requst is "Get"
+             then the body is EmPety of paramiters
+               
+              else
+                
+             2: if type of requst is "Post"
+                then the body Incloude The Paramiters
+                 So i cann't see the paramiters
+
+
+===============================================================
+
+2: Response {Created by server & send it to prowser}
+
+   * Must incluge :
+
+                   1: in containt type (html , jpg ,mp3)
+
+                   2: containt 
+
+                   3: Status Code 
+                     (ex: page not found then return 404)
+                     (ex: page Found  then return 200)
+
+
+      
+* Consist of :
+                   
+                 1: Header
+                   # type of server
+                   # containt type (Html)
+
+                 2: Body
+                    # containt (code of Html Files)
+
+================================================================
+
+
+3: Web Server : {software , programe}
+
+
+1: put on it programes(Html files) and response it to any requst
+
+2: cann't excute programes(codes) but contain HTml Files
+
+3: We Need App Server becouse web app contain java code 
+   and web srver cann't excute programes 
+
+=> App server :
+
+   is aprogram that divided ito 2 partes 
+
+    1: web server { ÇÏÇã ÇáÈÑæÓÑ}
+
+
+    2: container {contain java code}
+
+then :> 
+prowser send Web server & Web server know the request is java code(jsp) then Web server tell this to container 
+& container excute the java code(jsp) & get html file that in jsp to web server
+then web server send this htmlpage(result) to prowser
+
+APP Server :
+ex: abatch tomcat
+ex: classfish
+ex: web logic
+
+
+================================================================
+
+http:// (Protocol) => that detrmained the 1,2 (request , response)
+(hiper text transfer protocl)
+
+html: language that the prowser can anderstande
+
+================================================================
+
+Very Important rules :
+
+
+1: Requset : Use To get information about prowser or client
+
+
+2: response : use to send data to user or client
+
+
+if i made in my app : x.html & y.html & z.html
+
+then the page that will show is that send to it an requst
+
+
+======================================================================================================================================
+===================================================================
+
+
+

@@ -1,0 +1,112 @@
+
+Frist ===>>> programig
+
+
+program: web_app_num7
+
+
+=================================================================================================
+
+Second : inferomtion
+
+
+Fliter : (is class) on servelt
+
+When Using of filter ???
+
+MArke : during creat filter must conect it with the srvelt
+
+1: /* (by defult filter on all servelt in app)
+
+or
+
+2: choose servelt 
+
+
+but must remember : web.xml
+
+becouse: container must know this filter is conect with this servelt to
+
+cntainer send requst to filter directly rather than send requst to servelt
+
+==================================================
+
+Then 
+
+1: public class fliter_servelt_demo implements Filter(interface) 
+
+2: do overwrite for som methodes
+
+=> doFilter() 
+
+Execute it when it doing filter processing
+
+=============================================================
+
+=> the process :
+ 
+1: Container write web.xml
+
+2: then knows that ther is filter
+
+3: then countainer send requst to filter rather than servelt
+
+4: then filter send 
+chain.doFilter(request, response); 
+//then send request, response to srvelt
+
+=============================================================
+
+i can do more than one filter on one srvelt
+
+then => 
+
+filter num2 is executed frist
+
+filter num1 is excuted second
+
+Becouse in filtermaping (in web.xml => filter)
+
+then change tartip filter num2 , filter num1
+
+in source (in web.xml => filter)
+
+
+   <filter-mapping>
+        <filter-name>fliter_servelt_demo</filter-name>
+        <servlet-name>servelt_filter_demo</servlet-name>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>filter_servelt_demo2</filter-name>
+        <servlet-name>servelt_filter_demo</servlet-name>
+    </filter-mapping>
+
+??????????
+????????????  Not Executing
+Marke: 
+
+filter mapping :
+
+detrmined name of filter and it on name of srvelt
+
+=================================================================
+
+1: i can check on somthing and do dispatcher in
+ filter (requst.dispatcher)
+
+2: i cannot do redirect (reponse.redirect xx) 
+becouse response in filter is (ServletResponse response)
+
+so must cast it to (HttpServletResponse response)
+ //
+     HttpServletResponse res=(HttpServletResponse) response;
+     res.sendRedirect("");
+
+* Mark ( HttpServletResponse inhert from ServletResponse )
+====================================================================
+
+Filter For All Serveltes in app
+
+=======================================================================
+
+

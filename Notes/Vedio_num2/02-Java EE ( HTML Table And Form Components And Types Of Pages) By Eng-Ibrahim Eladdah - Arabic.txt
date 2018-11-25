@@ -1,0 +1,86 @@
+
+
+Frist :>>>>>>>>>>  Coding 
+
+
+
+Promrame : web_app_num1
+
+include : Creat tAble And HtmlForm
+
+
+================================================================================================================================
+
+
+web programming part 1
+
+
+Second :>>>>>>>>>>> INformation
+
+
+
+Static Page Write by HTML: static page from users using (show same result to any user)
+
+               ================================
+
+Dynamic page Write : for each user show result differ from user to other (contain code to show time)
+
+2 types of Dynamic oages :
+ 
+    1:Server Site : code excuite on server and result sent to prowser (EX : JSP in vedio num 12 in 28 munites)
+
+    
+     
+Write By:
+
+1: php
+2: jsp (java server page)
+3: asp  (microsoft .net)
+       
+                 =====================
+
+    2:Client Site :
+
+Write By:
+
+   Java Script (mde by letscap campony) : write with HTML code sent to prowser and excuite on prowser (calculet time based on anguage of prowser)
+
+
+
+Remmber : Server Send Html to Client Usgually
+  =============================================================
+
+
+
+Web Developer : Write The Code of WEb App
+
+
+Web Designer : Designe The Tembelt(Shape) of Web App 
+   Must Know(Html , css , Photoshop ,dreem waver )
+
+
+=============================================================
+
+WEb Site: Òí ÈÑäÇãÌ ÊÚÑíÝ ÔÑßå ãÚíäå  ÈÑÝÚ ÕæÑ áíåÇ Ú ÇáÓíÊ æÇáÔßá ãåã ÌÏÇ ÝíåÇ ÈíÚãá ÏÚÇíÇ ááãßÇä Çæ ááÔÑßå  
+
+Bulide By : Php
+
+           ========= ========= ========== =========
+Web App: ÇáÈÑäÇãÌ Çááí ÈíäÙã ÇáãßÇä Çááí ÈíÏíÑ ÇáãßÇä ÏÇÎá ÇáÔÑßÉ
+
+It Must be : 1: Stable
+       
+             2: Very Secure
+  
+             3: Ôßáå ßæíÓ ÈÑÏæ ÈÓ ãÔåã ÌÏÇÇÇÇÇÇ
+
+Bulid By : JSP
+
+MArke :>> asp (Microsoft) Write Web App or WEb Site
+=============================================================
+
+MAAAAAAARK :
+
+Code of Java is Excuted on Server And The Result Sent to Browser as Html;
+
+===============================================================

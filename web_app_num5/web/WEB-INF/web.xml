@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>putcookies</servlet-name>
+        <servlet-class>servelt.putcookies</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Get_All_cookies</servlet-name>
+        <servlet-class>servelt.Get_All_cookies</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>putcookies</servlet-name>
+        <url-pattern>/putcookies</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Get_All_cookies</servlet-name>
+        <url-pattern>/Get_All_cookies</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

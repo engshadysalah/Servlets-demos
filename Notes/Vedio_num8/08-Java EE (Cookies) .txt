@@ -1,0 +1,36 @@
+
+Frist ===>>>>   programing
+
+
+program: web_app_num5
+
+
+
+=============================================================
+
+Second ==>>> inferomtion
+
+
+
+ex: Keep Me login (Check box)
+ex: Rember me
+
+&
+
+Close Browesr
+
+
+
+Becouse:
+
+Cookies => test files  store on client .
+When requst go to server take this cookies with u then srver(recognize)  
+and send response to prowser & log me in direct withowt write name & pass
+
+
+
+Marke : cookies send to client in response from server
+
+==============================================================
+
+logout : Kill alll Cookies

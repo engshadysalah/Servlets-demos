@@ -1,0 +1,92 @@
+
+Frist ====>>>>> programing
+
+
+program : web_app_num4
+
+
+
+
+=================================================================
+
+
+Second ===>>>>> informaion
+
+ØÑíÞå ÚáÔÇä ÇÔíÑ ÇáÈíÇäÇÊ
+
+paramiter 
+
+1: it's name is String
+
+2: it's value is String
+
+
+
+
+attribute
+
+1: it's name is String
+
+2: it's value is object
+
+
+
+ussssssssssing in servelt context to share data
+
+=====================================================================
+
+dis advantage of context :
+
+Context in state of attribut:
+
+áãÇ íæÓÑ1  íÊÍØ Ýíå ÍÇÌå íæÓÑ2 íÊÍØ Ýíå ÍÇÌå íÈÞÇ 
+
+ÇáÍÇÌå ÈÊÇÚ ÇáíæÓÑ2 ÊÊÍØ Ýí ãßÇä íæÓÑ1 
+
+ÇáÏÇÊÇ ÈÊÇÚ ÇáíæÓÑÒ ÈíÎÔæ Ý ÈÚÖ íÇÇÇÇÇÇÇÇäÇÇÇÇÓ
+
+ use in db connection in all pages becous user not see this conections db
+
+to solve this problem go to session =========>>>>>>>>>>
+
+=================
+
+=> if atribut put in context then all can see it 
+
+=================
+
+
+atribut scop (places of atribut)
+
+1: context
+
+2: 
+
+========================================================================
+
+Session  ( ÌáÓå) =======>>>>>>>>
+
+prowser make session with app server in frist requst send from prowser to app sevder
+
+and all pages go and come  throw this session
+
+
+and
+
+another prowser can do the same
+
+in sam time
+
+
+
+=> then put data in session rather than context so each session can see it's data and data not ba able see by all
+
+
+
+
+====================================================
+
+session : is finished when close the prowser
+
+context : is bufinished when app srver is clossed so need this 
+          in db

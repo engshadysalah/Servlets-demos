@@ -1,0 +1,34 @@
+
+prograam: web_app_8
+
+
+hava db =>>
+
+
+in java jdk
+
+store in : C:\Users\rm\.netbeans-derby
+
+===================================================================================
+
+listner :(class)(lestin to somthing , if it occure then do action)
+
+1:contextlistner
+(can knows if container work or not and it work only one maraa )
+
+it can know app(container) is working or no 
+and contextlistner excute only on like container
+and put this listner in web.xml
+
+
+container 
+
+closed and opend again to perform deploy
+
+
+Marke: 
+
+listner : execute when container work(app run) befor run(requst)
+
+=======================
+=========================

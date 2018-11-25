@@ -1,0 +1,89 @@
+
+
+program : web_app_num9
+
+
+
+==============================================================
+
+information :
+
+
+
+
+
+
+===============
+1:request.getSession();
+
+return current session that realted with this requst
+
+or
+
+if ther is not session 
+then creat session
+
+==========================
+
+listner :
+
+2: httpsessionlistner :
+
+contain 2 method
+
+1:frist execute  when session created
+
+2:second execute when session killed
+
+===========================================
+
+3: HttpSessionAttributeListener
+
+execute when 
+
+1: create(put) attrubite
+
+2: attrubte removed
+
+3: attrubte  Replaced
+
+========================================
+4: Requst listner
+
+1: creat requst
+
+
+==================================
+
+5: Requst Atribute listner
+
+1: put atribut in requst
+
+================================
+=======================================================
+================================================================================================================================
+================================================================================================================================
+
+
+1: httpsessionlistner :
+
+use to detrmined numbers of users that on web app
+
+=
+
+number of session that created
+
+x++;
+
+?????????
+
+and 
+
+when session closed
+
+==================================================
+========================================
+
+
+
+x--;
